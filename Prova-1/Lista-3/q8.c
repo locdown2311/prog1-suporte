@@ -12,7 +12,6 @@ int main(int argc, char const *argv[])
     scanf("%d", &b);
     printf("Digite o coeficiente C: \n");
     scanf("%d", &c);
-
     delta = (b ^ 2) - (4 * a * c);
 
     if (delta < 0)
