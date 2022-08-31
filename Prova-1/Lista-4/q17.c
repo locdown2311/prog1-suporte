@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
+    //Ainda não está funcional 
     int time, regiao,invalido = 0;
     int cAmerica = 0, cAtletico = 0, cCruzeiro = 0;
     int cMetropole = 0, cInterior = 0;
