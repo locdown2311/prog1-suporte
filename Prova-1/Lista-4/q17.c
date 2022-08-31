@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     int cAmerica = 0, cAtletico = 0, cCruzeiro = 0;
     int cMetropole = 0, cInterior = 0;
 
-    while ()
+    while (0)
     {
         /* code */
     }
