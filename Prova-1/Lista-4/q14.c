@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-    int num;
+    int num,i;
 
     printf("Digite o numero desejado: ");
     scanf("%d", &num);
