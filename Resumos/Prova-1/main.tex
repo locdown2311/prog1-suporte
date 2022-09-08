@@ -1,0 +1,392 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{color}
+\usepackage{graphicx,url}
+
+\usepackage[brazil]{babel}   
+\usepackage[utf8]{inputenc}  
+\usepackage{enumitem}
+\usepackage{listings}
+
+\lstset{
+language=C,
+frame=single,   
+morecomment = [l][\itshape\color{blue}]{\%},
+keywordstyle=\color{blue},
+commentstyle=\color{green},
+literate=
+{+}{{{\color{red}+}}}1
+{-}{{{\color{red}-}}}1
+{*}{{{\color{red}*}}}1
+{,}{{{\color{red},}}}1
+{=}{{{\color{red}=}}}1
+{)}{{{\color{red})}}}1
+{(}{{{\color{red}(}}}1
+{;}{{{\color{red};}}}1
+{:}{{{\color{red}:}}}1
+{[}{{{\color{red}[}}}1
+{]}{{{\color{red}]}}}1
+{>}{{{\color{red}>}}}1
+{<}{{{\color{red}<}}}1
+}
+
+\setlist[enumerate]{after={\bigskip}}
+\setlist[itemize]{after={\bigskip}}
+\newcommand{\disciplina}{\textit{Programação de Computadores I }}
+\sloppy
+
+\title{Consulta simplificada para Prova 1 de \disciplina}
+
+\author{Igor C. Guimarães \inst{1}}
+
+
+\address{Instituto de Ciencias Exatas e Aplicadas -- Universidade Federal de Ouro Preto
+	(UFOP)\\
+	\email{igor.cg@aluno.ufop.edu.br}
+}
+\begin{document} 
+
+\maketitle
+
+     
+\begin{resumo} 
+  Este guia de consulta da disciplina \disciplina serve como base para entender a correta utilização de funções e loops para a primeira prova e talvez para posteriores.Programação requer prática e persistência, nem sempre os programas terão o funcionamento esperado e teste de código é altamente recomendado. 
+\end{resumo}
+\newpage
+\tableofcontents
+\newpage
+\section{Dicas úteis}
+Durante a prova, procure identificar quais serão as variáveis e se o problema irá envolver condicionais ou loops. \\Um problema de loop sempre terá escrito \textit{(até que o usuário \textbf{digite X palavra para sair})} e um exercício que envolve condicional geralmente terá \textit{(\textbf{caso X $>$ imprima..})}
+
+\begin{flushleft}
+	Prova em sala \textbf{você não terá como testar}, logo sua única forma de verificação será o teste de mesa. No teste de mesa você deve utilizar as variáveis criadas durante o código e analisar a mudança das mesmas e como isso pode afetar o resto da execução do código.
+	
+	Diagramas de Chapin e Fluxograma podem te ajudar na parte lógica do programa, se tiver tempo, faça-os.
+	
+	Não se esqueça do ";" sempre após declaração de variáveis e em alguns outros momentos durante o código.
+	
+	O while precisa de um contador para percorrer o loop, ele não se incrementa sozinho se comparado ao for.
+	
+	As variáveis em C são tipadas, ou seja, requer que seja especificado o \textbf{tipo} da variável (Pag:\pageref{tipovariavel}).
+	
+	Fatorial pode ser feito de forma recursiva e forma de loop, analise o que o professor irá permitir.
+	
+	
+	
+	
+	
+\end{flushleft}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../Lightshot/fluxograma}
+	\caption{Fluxograma e sua representação}
+	\label{fig:fluxograma}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../../../../Lightshot/chapin}
+	\caption{Diagrama de Chapin}
+	\label{fig:chapin}
+\end{figure}
+
+\section{Nomenclatura de variáveis}
+Em C as variáveis requerem tipagem, ou seja, requer que se escreva 'int', 'float' ou 'char' para as mesmas funcionarem. \\
+Exemplo de variáveis que devem funcionar:
+\begin{itemize}
+    \item igor\underline{}cg
+    \item igor\underline{}123
+    \item AlUnO\underline{\hspace{.10in}}11
+\end{itemize}
+Exemplo de variáveis que \textbf{não} devem funcionar:
+\begin{itemize}
+    \item 123igor\underline{\hspace{.10in}}cg (começar com números)
+    \item 123-foo (uso de hífen)
+\end{itemize}
+Nomes de variáveis \textbf{proibidas}:
+\begin{itemize}
+	\item auto     
+	\item double          
+	\item int                                
+	\item struct
+	\item break                                    
+	\item long                                 
+	\item else                          
+	\item switch
+	\item case                                 
+	\item return         
+	\item enum                               
+	\item typedef
+	\item char                                 
+	\item register                             
+	\item extern                             
+	\item union
+	\item const                                
+	\item short                                
+	\item float                              
+	\item unsigned
+	\item continue                             
+	\item signed                                
+	\item for                                
+	\item void
+	\item default                              
+	\item sizeof                                
+	\item goto                               
+	\item volatile
+	\item do                                  
+	\item static                                
+	\item if                                 
+	\item while
+\end{itemize}
+Tipos de variáveis\label{tipovariavel}
+\begin{itemize}
+	\item \textbf{int}: Inteiro (positivo ou negativo).
+	\item \textbf{float}: Número com partes fracionadas.
+	\item \textbf{double}: Número com partes fracionadas de maior precisão.
+	\item \textbf{char}: Apenas um caractere.
+\end{itemize}
+Para números com partes fracionadas, deve-se utilizar "." (Vírgula não terá o funcionamento esperado)
+\\O tipo booleano (verdadeiro ou falso) é representado por inteiro sendo:
+\begin{itemize}
+	\item 0 : Falso
+	\item 1 ou valor diferente de 0: Verdadeiro
+\end{itemize}
+Exemplo de uso das variáveis
+\begin{lstlisting}[language=C]
+	int iNumero = 9090;
+	char cLetra = 'c';
+	float fGrande = 9090.1234;
+\end{lstlisting}
+De forma geral, variáveis sempre devem começar com letra e evitando o uso de hífen em caso de múltiplas palavras.
+
+\section{Operadores}
+Algumas das operações possíveis a serem realizadas com as variáveis são:
+\begin{itemize}
+	\item +, adição
+	\item -, subtração
+	\item *, multiplicação
+	\item /, divisão
+	\item \%, resto da divisão
+\end{itemize}
+Alguns atalhos para operações:
+\begin{lstlisting}[language=C]
+	int iNumero += 10;
+\end{lstlisting}
+é equivalente a 
+\begin{lstlisting}[language=C]
+	int iNumero = iNumero +10;
+\end{lstlisting}
+O mesmo vale para as outras operações.
+\subsection{Incremento e Decremento}
+Geralmente em uso de loops são utilizados incrementos ou decrementos para alcançar o final das iterações desejado. Ex
+\begin{itemize}
+	\item iNumero$++ $ (Número sera adicionado o valor 1 após a sua leitura).
+	\item $++$iNumero (Número sera adicionado o valor 1 antes de sua leitura).
+	
+	\item iNumero$-- $ (Número sera subtraído o valor 1 após a sua leitura).
+	\item $--$iNumero (Número sera subtraído o valor 1 antes de sua leitura).
+\end{itemize}
+\section{Interação com Usuário}\label{printfscanf}
+Na linguagem C, existem algumas funções para interagir com usuário e cada uma delas possui um foco específico.\\
+\textbf{Printf}\label{printf}
+\begin{itemize}
+	\item Imprimir mensagens para o usuário
+	\item Exibir valores de variáveis
+	\item Exibir ao usuário que o programa está respondendo
+	\item Pode conter filtros para impressão de dados. \\
+	Exemplo: Imprimir apenas duas casas decimais de um número float:
+	\begin{lstlisting}[language=C]
+		float fNumero = 99.9999;
+		printf("%.2f",fNumero); //99.99
+	\end{lstlisting}
+\footnote{Utilizar printf e scanf de forma inteligente, evita possíveis erros e até mesmo validações desnecessárias.}
+\end{itemize}
+\textbf{Scanf}\label{key}
+
+\begin{itemize}
+	\item Solicita valores de variáveis
+	\begin{itemize}
+		\item \%d para tipo inteiro
+		\item \%f para tipo float
+		\item \%c para tipo caractere
+		\item \%s para vetor de caractere (string e frases)
+		
+	\end{itemize}
+	\item Pode conter filtros para coleta de um número especifico de dados. Exemplo: Pegar apenas 2 dígitos de um número inteiro:
+	\begin{lstlisting}[language=C]
+		int iNumero;
+		scanf("%2d",&iNumero);
+	\end{lstlisting}
+\end{itemize}
+\section{Funções e retornos}
+\begin{lstlisting}[language=C]
+	int calculaRaizInteira (int numero){
+		return sqrt(numero);
+	}
+	//MAIN
+	int main(){
+		int n = calculaRaizInteira(9);
+	}
+\end{lstlisting}
+No exemplo acima, o tipo da variável da chamada da função (no caso a main) deve possuir o mesmo tipo de retorno da função calculaRaizInteira (também int) para evitar conflitos de números imprecisos.
+\section{Operadores lógicos}
+Uma forma de compreensão mais fácil é por um artifício denominado Tabela Verdade.
+
+\centering
+\begin{tabular}{|c|c|c|}
+	\hline
+	A & B & A $\|$ B (A E B) \\
+	\hline
+	0 & 0 & 0 \\
+	\hline
+	0 & 1 & 1 \\
+	\hline
+	1 & 0 & 1 \\
+	\hline
+	1 & 1 & 1 \\
+	\hline
+	
+\end{tabular}
+
+\centering
+\begin{tabular}{|c|c|c|}
+	\hline
+	A & B & A $\&$ B (A E B) \\
+	\hline
+	0 & 0 & 0 \\
+	\hline
+	0 & 1 & 0 \\
+	\hline
+	1 & 0 & 0 \\
+	\hline
+	1 & 1 & 1 \\
+	\hline
+	
+\end{tabular}
+
+\centering
+\begin{tabular}{|c|c|}
+	\hline
+	A & !A (negação de A) \\
+	\hline
+	0 & 1 \\
+	\hline
+	1 & 0 \\
+	\hline
+\end{tabular}
+\newpage
+
+Resumo dos operadores lógicos\\
+
+A comparação deve ser feita entre duas variáveis ($\&$ ou $\|$)
+\begin{itemize}
+    \item (!) Inverte o valor do operador booleano(apenas pra 0 ou 1 como resposta). Se for 0, tornará 1. Se for 1, tornará 0.
+    \item ($\&$) Requer que \textbf{AMBOS} os valores comparados sejam verdadeiros, dessa forma a resposta será verdadeira.
+    \item ($\|$) Requer que \textbf{PELO MENOS} um dos valores comparados sejam verdadeiros, para que a resposta seja verdadeira.
+\end{itemize}
+
+\begin{lstlisting}[language=C]
+	int A = 1;
+	int inverso = !A; //Inverso tera o valor 0.
+	
+	int A2 = 1, B2 = 0;
+	int AeB = A2 && B2; //AeB tera o valor 0.
+	
+	int A3 = 1, B3 = 1;
+	int AouB = A3 || B3; //AouB tera o valor 1
+\end{lstlisting}
+
+\section{Operadores relacionais}
+Geralmente utilizados como comparação de duas variáveis e retornando verdadeiro ou falso conforme o resultado da comparação.
+
+\begin{itemize}
+	\item A \textless B (menor que)
+	\item A $<=$ (menor ou igual)
+	\item A $>$ B (maior que)
+	\item A $>=$ B (maior ou igual a)
+	\item A == B (igual a)
+	\item A $\neq$ B (diferente de)
+	
+\end{itemize}
+Exemplo:
+\begin{lstlisting}[language=C,mathescape=true]
+	int A = 1, B = 2;
+	if(A $<=$ B) //Retorna verdadeiro
+	  printf("A menor que B");
+\end{lstlisting}
+
+\newpage
+\section{Condicionais}
+
+Na linguagem C, utilizamos o \textit{if} e o \textit{switch} para realizar operações que dependem de uma certa condição para serem iniciadas.
+
+\subsection{IF e Else}
+\subsubsection{IF}
+\begin{lstlisting}[language=C,mathescape=true]
+	int A = 1, B = 2;
+	if(A $<=$ B) //Retorna verdadeiro
+	 printf("A menor que B");
+\end{lstlisting}
+O else if é semelhante ao if normal, porém só será executado se o \textit{if} anterior não for verdadeiro.
+\subsubsection{Else}
+\begin{lstlisting}[language=C,mathescape=true]
+	int A = 1, B = 2;
+	if(A $>$ B) //Retorna verdadeiro
+		printf("A maior que B");
+	else if(A == B)
+		printf("A igual a B");
+	else
+		printf("A menor que B");
+\end{lstlisting}
+\subsection{Switch}
+\begin{lstlisting}[language=C,mathescape=true]
+	int A = 1, B = 2;
+	switch(A) //Variavel a ser usada de comparacao
+	case (A$>$B)
+		printf("A maior que B");
+		break;
+	case (A == B)
+		printf("A igual a B");
+		break;
+	default: //Caso nenhuma das condicoes se encaixe
+		printf("A menor que B");
+\end{lstlisting}
+
+\section{Repetição}
+\subsection{While}\label{while}
+Executa um loop enquanto a condição de parada não for alcançada.Por padrão um contador é utilizado como condição para que as iterações chegue ao fim ou até mesmo um valor digitado pelo usuário para que se saia da região do loop. Ex: contador++
+\begin{lstlisting}[language=C,mathescape=true]
+	while ( condicao ) 
+	{ 
+		Comandos a serem executados; 
+		IncrementaCondicao para alcancar a parada
+	}  
+\end{lstlisting}
+
+\subsection{Do While}
+Semelhante ao While, porém garante que será executado ao menos uma vez pela parte do código \textbf{do}.
+\begin{lstlisting}[language=C,mathescape=true]
+	do{
+		Comandos a serem executados;
+		IncrementaCondicao para alcancar a parada
+	}
+	while ( condicao ); 
+\end{lstlisting}
+\subsection{For}
+Semelhante ao \ref{while} porém com o diferencial que pode ser utilizado a inicialização, condição de parada e incremento em apenas um comando.
+\begin{lstlisting}[language=C,mathescape=true]
+	int i; //Necessario declaracao antes do for
+	for(i = 0; i<10; i++){
+		printf("%d ",i); //Ira imprimir de 0 a 9
+	}
+
+	for(inicio; parada; incre ou decre){
+		
+	}
+\end{lstlisting}
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

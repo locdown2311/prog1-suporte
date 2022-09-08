@@ -1,0 +1,18 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}Dicas úteis}{3}{}%
+\contentsline {section}{\numberline {2}Nomenclatura de variáveis}{3}{}%
+\contentsline {section}{\numberline {3}Operadores}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Incremento e Decremento}{6}{}%
+\contentsline {section}{\numberline {4}Interação com Usuário}{6}{}%
+\contentsline {section}{\numberline {5}Funções e retornos}{7}{}%
+\contentsline {section}{\numberline {6}Operadores lógicos}{7}{}%
+\contentsline {section}{\numberline {7}Operadores relacionais}{8}{}%
+\contentsline {section}{\numberline {8}Condicionais}{9}{}%
+\contentsline {subsection}{\numberline {8.1}IF e Else}{9}{}%
+\contentsline {subsubsection}{\numberline {8.1.1}IF}{9}{}%
+\contentsline {subsubsection}{\numberline {8.1.2}Else}{9}{}%
+\contentsline {subsection}{\numberline {8.2}Switch}{9}{}%
+\contentsline {section}{\numberline {9}Repetição}{9}{}%
+\contentsline {subsection}{\numberline {9.1}While}{9}{}%
+\contentsline {subsection}{\numberline {9.2}Do While}{10}{}%
+\contentsline {subsection}{\numberline {9.3}For}{10}{}%

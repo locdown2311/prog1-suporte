@@ -1,0 +1,442 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.20)  8 SEP 2022 12:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(sbc-template.sty
+Package: sbc-template 2001/06/09
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption2.sty
+Package: caption2 2021/01/20 v2.2i Customising captions (AR)
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen147
+\captionmargin=\dimen148
+\caption@leftmargin=\dimen149
+\caption@rightmargin=\dimen150
+\caption@width=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+Package caption Info: Standard document class detected.
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 231.
+\captionlinewidth=\dimen155
+\realcaptionwidth=\dimen156
+Package caption2 Info: float package is not loaded on input line 335.
+Package caption2 Info: longtable package is not loaded on input line 352.
+Package caption2 Info: subfigure package is not loaded on input line 445.
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+\c@instn=\count196
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box50
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen157
+\ttl@minus=\dimen158
+\ttl@toksa=\toks18
+\titlewidth=\dimen159
+\titlewidthlast=\dimen160
+\titlewidthfirst=\dimen161
+)) (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+) (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen164
+\l@unhyphenated=\language79
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count198
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.l
+df
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)) (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+) (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen165
+\enit@toks=\toks21
+\enit@inbox=\box51
+\enit@count@id=\count199
+\enitdp@description=\count266
+) (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count267
+\lst@gtempboxa=\box52
+\lst@token=\toks22
+\lst@length=\count268
+\lst@currlwidth=\dimen166
+\lst@column=\count269
+\lst@pos=\count270
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count271
+\lst@lineno=\count272
+\lst@maxwidth=\dimen169
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count273
+\lst@skipnumbers=\count274
+\lst@framebox=\box53
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+8.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box54
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 674.33032pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen170
+\scratchbox=\box55
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen171
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks24
+)
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count282
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
+0.
+ (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (9.40234pt too wide) in paragraph at lines 50--50
+ [][] 
+ []
+
+[1
+
+{C:/Users/igor2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+[2]
+<../../../../../Lightshot/fluxograma.png, id=14, 215.30438pt x 314.67563pt>
+File: ../../../../../Lightshot/fluxograma.png Graphic file (type png)
+<use ../../../../../Lightshot/fluxograma.png>
+Package pdftex.def Info: ../../../../../Lightshot/fluxograma.png  used on input
+ line 76.
+(pdftex.def)             Requested size: 298.75264pt x 436.6824pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
+7.
+ (C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../../../../../Lightshot/chapin.png, id=16, 201.00093pt x 176.15813pt>
+File: ../../../../../Lightshot/chapin.png Graphic file (type png)
+<use ../../../../../Lightshot/chapin.png>
+Package pdftex.def Info: ../../../../../Lightshot/chapin.png  used on input lin
+e 83.
+(pdftex.def)             Requested size: 298.75264pt x 261.82811pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+2.
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+[3] [4 <../../../../../Lightshot/fluxograma.png>] [5 <../../../../../Lightshot/
+chapin.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 197.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 197.
+ [6]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
+18.
+
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
+
+[7]
+Underfull \hbox (badness 1895) in paragraph at lines 294--294
+|[]\OT1/ptm/b/n/13 Operadores relacionais| 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 2
+98.
+(C:\Users\igor2\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 298.
+
+[8]
+Underfull \hbox (badness 3449) in paragraph at lines 314--314
+|[]\OT1/ptm/b/n/13 Condicionais| 
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 318--318
+|[]\OT1/ptm/b/n/12 IF e Else| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+|[]\OT1/ptm/b/n/12 IF|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+|[]\OT1/ptm/b/n/12 Else|
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 336--336
+|[]\OT1/ptm/b/n/12 Switch| 
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 350--350
+|[]\OT1/ptm/b/n/13 Repeti[][]ao| 
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 351--351
+|[]\OT1/ptm/b/n/12 While| 
+ []
+
+[9]
+Underfull \hbox (badness 4765) in paragraph at lines 361--361
+|[]\OT1/ptm/b/n/12 Do While| 
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 370--370
+|[]\OT1/ptm/b/n/12 For| 
+ []
+
+(main.bbl
+Underfull \hbox (badness 4205) in paragraph at lines 1--1
+|\OT1/ptm/b/n/13 Refer[]encias| 
+ []
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [10] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 6775 strings out of 478582
+ 110935 string characters out of 2844344
+ 638841 words of memory out of 3000000
+ 24874 multiletter control sequences out of 15000+600000
+ 492843 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,10n,77p,365b,1701s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/igor2/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/base/8r.enc}<C:/Users/igor2/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi12.pfb><C:/Users/igor2/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/igor2/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/igor2/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/igor2/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/igor2/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/igor2/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/igor2/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/igor2/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/igor2/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (10 pages, 213645 bytes).
+PDF statistics:
+ 91 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
