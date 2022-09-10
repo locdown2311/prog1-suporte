@@ -9,6 +9,7 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage{hyperref}
+\usepackage{ulem}
 
 
 \lstset{
@@ -72,9 +73,9 @@ Durante a prova, procure identificar quais serão as variáveis e se o problema 
 \begin{flushleft}
 	Prova em sala \textbf{você não terá como testar}, logo sua única forma de verificação será o teste de mesa. No teste de mesa você deve utilizar as variáveis criadas durante o código e analisar a mudança das mesmas e como isso pode afetar o resto da execução do código.
 	
-	Diagramas de Chapin e Fluxograma podem te ajudar na parte lógica do programa, se tiver tempo, faça-os.
+	Diagramas de Chapin e Fluxograma podem te ajudar na parte lógica do programa \sout{se tiver tempo, faça-os.}
 	
-	Não se esqueça do ";" sempre após declaração de variáveis e em alguns outros momentos durante o código.
+	\uline{Não se esqueça do ";" sempre após declaração de variáveis e em alguns outros momentos durante o código.}
 	
 	O while precisa de um contador para percorrer o loop, ele não se incrementa sozinho se comparado ao for.
 	
@@ -82,9 +83,7 @@ Durante a prova, procure identificar quais serão as variáveis e se o problema 
 	
 	Fatorial pode ser feito de forma recursiva e forma de loop, analise o que o professor irá permitir.
 	
-	
-	
-	
+	Switch é bom apenas para valores fixos (sem intervalos) e um bom uso é para caracteres.
 	
 \end{flushleft}
 \begin{figure}[h]
@@ -311,12 +310,12 @@ A comparação deve ser feita entre duas variáveis ($\&$ ou $\|$)
 Geralmente utilizados como comparação de duas variáveis e retornando verdadeiro ou falso conforme o resultado da comparação.
 
 \begin{itemize}
-	\item A \textless B (menor que)
+	\item A $<$ B (menor que)
 	\item A $<=$ (menor ou igual)
 	\item A $>$ B (maior que)
 	\item A $>=$ B (maior ou igual a)
 	\item A == B (igual a)
-	\item A $\neq$ B (diferente de)
+	\item A != B (diferente de)
 	
 \end{itemize}
 Exemplo:
@@ -350,6 +349,7 @@ O else if é semelhante ao if normal, porém só será executado se o \textit{if
 		printf("A menor que B");
 \end{lstlisting}
 \subsection{Switch}
+Diferente do IF, o Switch não é possível usa-lo para faixa de valores. Um exemplo seria um programa que realiza $x < y < z$, algo que trabalha com faixas de valores não terá o funcionamento esperado ao usar esse comparador.
 \begin{lstlisting}[language=C,mathescape=true]
 	int A = 1, B = 2;
 	switch(A) //Variavel a ser usada de comparacao
