@@ -1,5 +1,5 @@
 FROM gcc:4.9
-COPY . /usr/src/parte1
-WORKDIR /usr/src/parte1/Prova-1
+COPY . /usr/src/resumos
+WORKDIR /usr/src/resumos/Prova-2
 RUN make
-CMD [ "./Lista-3/q1" ]
+CMD [ "./Lista-5/q1" ]
