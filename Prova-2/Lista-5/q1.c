@@ -2,16 +2,17 @@
 int main(int argc, char const *argv[])
 {
     int vetor[10];
-    int i,j;
-    for ( i = 0; i <= 10; i++)
+    int i = 0;
+    while (i<10)
     {
-        vetor[i] = (2*i);
+        vetor[i] = 2*i;
+        i++;
     }
-
-    for ( j = 0; j <= 10; j++)
+    for ( i = 0; i < 10; i++)
     {
-        printf("%d ",vetor[j]);
+        printf("%d ",vetor[i]);
     }
+    
     
     return 0;
 }
