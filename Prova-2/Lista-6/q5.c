@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 typedef struct q5
 {
     char nome[100];
     char tipo[100];
     float nota;
 } TRestaurante;
-void ordenaRestaurantes(TRestaurante *restaurantes, int n)
+// função para ordenar os restaurantes de forma decrescente
+void ordenar(TRestaurante *restaurante, int n)
 {
     int i, j;
     TRestaurante aux;
@@ -14,11 +16,11 @@ void ordenaRestaurantes(TRestaurante *restaurantes, int n)
     {
         for (j = i + 1; j < n; j++)
         {
-            if (restaurantes[i].nota < restaurantes[j].nota)
+            if (restaurante[i].nota < restaurante[j].nota)
             {
-                aux = restaurantes[i];
-                restaurantes[i] = restaurantes[j];
-                restaurantes[j] = aux;
+                aux = restaurante[i];
+                restaurante[i] = restaurante[j];
+                restaurante[j] = aux;
             }
         }
     }
@@ -40,13 +42,13 @@ int main(int argc, char const *argv[])
         scanf("%f", &restaurante[i].nota);
         fflush(stdin);
     }
-    ordenaRestaurantes(restaurante, 10);
-    // Menu com as opções: 
-    //1. Listar todos os restaurantes 
-    //2. Listar restaurantes com tipo de comida
-    //3. Listar os 5 restaurantes com nota >=6 para um tipo de comida
-    //4. Listar os 5 restaurantes com maiores notas de 0 a 10
-    //5. Sair
+    ordenar(restaurante, 10);
+    // Menu com as opções:
+    // 1. Listar todos os restaurantes
+    // 2. Listar restaurantes com tipo de comida
+    // 3. Listar os 5 restaurantes com nota >=6 para um tipo de comida
+    // 4. Listar os 5 restaurantes com maiores notas de 0 a 10
+    // 5. Sair
     int opcao;
     do
     {
@@ -57,6 +59,7 @@ int main(int argc, char const *argv[])
         printf("5. Sair\n");
         printf("Digite a opcao desejada: ");
         scanf("%d", &opcao);
+        fflush(stdin);
         switch (opcao)
         {
         case 1:
@@ -70,6 +73,8 @@ int main(int argc, char const *argv[])
         case 2:
             printf("Digite o tipo de comida: ");
             fgets(tipo, 100, stdin);
+            fflush(stdin);
+
             for (i = 0; i < 10; i++)
             {
                 if (strcmp(restaurante[i].tipo, tipo) == 0)
@@ -83,6 +88,8 @@ int main(int argc, char const *argv[])
         case 3:
             printf("Digite o tipo de comida: ");
             fgets(tipo, 100, stdin);
+            fflush(stdin);
+
             int cont = 0;
             for (i = 0; i < 10; i++)
             {
